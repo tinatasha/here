@@ -1,4 +1,4 @@
-#### By **NJOROGE KARUGU.**
+#### By **Tina Tasha.**
 ## Description
 The github search is an application designed to help the user search for github users info. The user is able to view the numbers of  public repositories and see followers and people the user following. the user can also view other people's repositories by searching their user names..
 ## Setup/Installation Requirements
@@ -15,10 +15,9 @@ All safe , no bugs will be encoutered on my github app. But in case it is unfort
 * HTML.
 * CSS.
 * Angular JS
-* Git Hub
-* Terminal
+
 ## Support and contact details
-For contact information email @ karugunjoroge@gmail.com.
+For contact information email tashambiti@gmail.com.
 ### License
 *[MIT]
-Copyright (c) 2019 **NJOROGE KARUGU**
+Copyright (c) 2019 **TINA TASHA**

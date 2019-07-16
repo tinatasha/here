@@ -1,0 +1,53 @@
+<div class="container">
+    <div class="jumbotron">
+        <h1>GitHub Search</h1>
+        <div class="col-md-6">
+            <app-search-form></app-search-form>
+            <a href="{{ user.html_url }}" class="btn  btn-lg btn-success" id="view">Search</a>
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <div class="card-block">
+            <div class="row">
+                <div class="col-xl-4 m-b-1">
+                    <img src="{{user.avatar_url}}" class="profile-img img-thumbnail m-b-1" />
+                    <a class="btn btn-sm btn-outline-primary btn-lg btn-block m-t-1" href="{{user.html_url}}" target="_blank">View
+          Profile</a>
+
+
+                </div>
+
+                <div class="col-md-8">
+                    <div class="stats">
+                        <span class="label label-default">{{ user.public_repos }} Public Repositories</span>
+
+                        <span class="label label-success">{{ user.followers }} Followers</span>
+                        <span class="label label-info">{{ user.following }} Following</span>
+                    </div>
+                    <br />
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <strong>Username: </strong>{{user.login}}
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Repositories: </strong>{{ user.public_repos }}
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Followers: </strong>{{ user.followers }}
+                        </li>
+
+                        <li class="list-group-item">
+                            <strong>Following: </strong>{{ user.following }}
+                        </li>
+                    </ul>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
